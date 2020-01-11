@@ -1,19 +1,16 @@
 import React from "react"
 
-import Header from "../components/header"
-import Footer from "../components/footer"
+import Layout from "../components/layout"
 
 const HomePage = () => {
   return (
-    <div>
-      <Header />
+    <Layout>
       <h1>Hi there.</h1>
       <h2>
-        My name is Jamie McNeil, a full-stack web developer from Philadelphia,
+        My name is Jamie McNeil, a front-end web developer from Philadelphia,
         Pennsylvania!
       </h2>
-      <Footer />
-    </div>
+    </Layout>
   )
 }
 

@@ -4,6 +4,12 @@
 
 My personal website running on Gatsby, React, and Node.js.
 
+### Run
+
+```bash
+npm run develop
+```
+
 ## Author
 
 - [Jamie McNeil](https://www.jamiemcneil.dev)
