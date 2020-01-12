@@ -1,7 +1,9 @@
 ---
 title: "Experimenting with GatsbyJS"
-date: "2020-01-04"
+date: "January 4th, 2020"
 ---
+
+![Gatsby](./gatsby.png)
 
 I just started bulding an new Gatsby site!
 

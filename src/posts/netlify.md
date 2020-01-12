@@ -1,6 +1,6 @@
 ---
 title: "Building a Netlify-hosted site"
-date: "2020-01-11"
+date: "January 11th, 2020"
 ---
 
 I just started bulding a website hosted on Netlify!

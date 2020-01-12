@@ -4,7 +4,7 @@
 
 My personal website running on Gatsby, React, and Node.js.
 
-### Run
+## Run
 
 ```bash
 npm run develop
