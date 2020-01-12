@@ -9,5 +9,15 @@ module.exports = {
     title: "Front-End Web Developer",
     author: "Jamie McNeil",
   },
-  plugins: [`gatsby-plugin-sass`],
+  plugins: [
+    `gatsby-plugin-sass`,
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: `posts`,
+        path: `${__dirname}/src/posts/`,
+      },
+    },
+    `gatsby-transformer-remark`,
+  ],
 }
