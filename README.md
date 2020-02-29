@@ -7,7 +7,7 @@ My personal website running on Gatsby, React, and Node.js.
 ## Run
 
 ```bash
-npm run develop
+gatsby build
 ```
 
 ## Author

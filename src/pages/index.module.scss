@@ -1,0 +1,23 @@
+.row {
+  display: flex;
+  align-items: center;
+
+  .about {
+    flex: 1 1;
+
+    .avatar,
+    .social {
+      display: flex;
+      justify-content: center;
+
+      img {
+        border-radius: 50%;
+        width: 300px;
+      }
+    }
+  }
+
+  .bio {
+    flex: 2 1;
+  }
+}
