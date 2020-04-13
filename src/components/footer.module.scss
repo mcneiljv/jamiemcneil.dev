@@ -1,10 +1,18 @@
-.footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 3rem;
+@media (min-width: 320px) {
+  .footer {
+    margin-top: 3rem;
+    text-align: center;
+  }
+}
 
-  .social {
+@media (min-width: 768px) {
+  .footer {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .social {
+      display: flex;
+    }
   }
 }

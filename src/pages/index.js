@@ -9,7 +9,7 @@ import GitHubButton from "react-github-btn"
 const HomePage = () => {
   return (
     <Layout>
-      <Head title="Home" />
+      <Head title="Jamie McNeil" />
       <div className={indexStyles.row}>
         <div className={indexStyles.about}>
           <div className={indexStyles.avatar}>
