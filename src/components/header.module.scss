@@ -22,10 +22,10 @@
       font-size: 0.9rem;
       margin-right: 1.3rem;
       text-decoration: none;
-    }
 
-    .nav-item:hover {
-      color: #9794f2;
+      &:hover {
+        color: #9794f2;
+      }
     }
 
     .active-nav-item {

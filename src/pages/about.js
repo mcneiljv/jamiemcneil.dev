@@ -10,8 +10,12 @@ const AboutPage = () => {
       <Head title="About" />
       <h1>About</h1>
       <p>
-        This is the about page.{" "}
-        <Link to="/contact">Feel free to contact me</Link>!
+        I strive to create designs that are user-friendly and beautiful while
+        successfully appealing to a target audience. I believe it is important
+        to increase brand awareness, enhance public relations, and drive leads
+        through the use of web development and social media content. I’m truly
+        passionate about my work and always eager to connect with other
+        developers and social media specialists.
       </p>
     </Layout>
   )

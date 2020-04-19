@@ -1,0 +1,97 @@
+@media (min-width: 320px) {
+  .intro h1,
+  .intro p {
+    text-align: center;
+  }
+  .contactRow {
+    display: block;
+
+    .form {
+      h2 {
+        text-align: center;
+      }
+
+      label {
+        display: none;
+      }
+      .contactInput {
+        border-radius: 0.5em;
+        border: 0.1em solid #2f3659;
+        transition: all 0.3s;
+        padding: 0.8em;
+        width: 100%;
+        box-sizing: border-box;
+
+        &:focus {
+          border: 0.1em solid #8979f2;
+        }
+      }
+
+      textarea {
+        height: 10em;
+        resize: none;
+      }
+
+      textarea::-webkit-scrollbar {
+        width: 0.6em;
+      }
+
+      textarea::-webkit-scrollbar-track {
+        border-radius: 0.5em;
+        -webkit-border-radius: 0.5em;
+        box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+      }
+
+      textarea::-webkit-scrollbar-thumb {
+        border-radius: 0.5em;
+        -webkit-border-radius: 0.5em;
+        box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+        background-color: #2f3659;
+      }
+
+      .contactSubmit {
+        width: 100%;
+        background-color: #2f3659;
+        border-radius: 0.5em;
+        border: 0;
+        cursor: pointer;
+        color: #ffffff;
+        padding: 0.6em 0 0.6em 0;
+        transition: all 0.3s;
+
+        &:hover {
+          background-color: #8979f2;
+        }
+      }
+    }
+
+    .aroundTheWeb {
+      text-align: center;
+
+      a {
+        color: #b5b3f2;
+        text-decoration: none;
+
+        &:hover {
+          color: #9794f2;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .contactRow {
+    display: flex;
+
+    .form {
+      flex: 1 1;
+    }
+
+    .aroundTheWeb {
+      flex: 2 1;
+    }
+  }
+}
